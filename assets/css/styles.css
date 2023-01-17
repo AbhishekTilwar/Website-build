@@ -681,3 +681,24 @@ img{
   width: max-content;
   padding: 0px 20px 0px 20px;
 }
+
+
+.sponsors-container {
+  text-align: center;
+}
+
+.sponsors-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sponsor-item {
+  width: 150px;
+  margin: 10px;
+}
+
+.sponsor-item img {
+  width: 100%;
+}
