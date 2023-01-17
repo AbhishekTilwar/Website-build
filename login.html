@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Beyond - SignIn</title>
+    <link rel="stylesheet" href="assets/style_auth.css" />
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-auth-compat.js"></script>
+  </head>
+  <body>
+
+    <header>
+      <section class="header-content">
+        <h1 class="header-title animate-pop-in">Welcome Back!</h1>
+
+        <br> <br> <br> <br>
+
+    <div class="form">
+
+      <h1>Sign In</h1>
+      <!-- Email  -->
+      <div class="email">
+        <label for="email">&nbsp;&nbsp;Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder=" Email address"
+        />
+      </div>
+      <!-- passWord -->
+      <div class="pass">
+        <label for="password">&nbsp;&nbsp;Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder=" Password"
+        />
+        <span id="error"></span>
+      </div>
+
+      <!-- Sign Up button -->
+      <div class="vertical-center">
+          <button id="submit-btn" onclick="signIn()">Sign In</button>
+      </div>
+      <!-- Sign In option -->
+      <pw> Don't have an account?</pw>
+      <span><a href="signUp.html">Create Account</a></span>
+    </div>
+    <div><span  style="color: #4285F4"><a href="index.html"><b>Skip >></b></a></span></div>
+        </section>
+    </header>
+
+    <script src="assets/js/main_auth.js"></script>
+  </body>
+</html>
