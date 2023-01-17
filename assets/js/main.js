@@ -112,3 +112,40 @@ sr.reveal(`.home__data, .home__img,
             .footer__content`, {
     interval: 200
 })
+
+
+//Payment Gateway
+/* Start client-defined Callback Handler Functions */
+function onOpenHandler () {
+    alert('Payments Modal is Opened');
+  }
+  
+  function onCloseHandler () {
+    alert('Payments Modal is Closed');
+  }
+  
+  function onPaymentSuccessHandler (response) {
+    alert('Payment Success');
+    console.log('Payment Success Response', response);
+  }
+  
+  function onPaymentFailureHandler (response) {
+    alert('Payment Failure');
+    console.log('Payment Failure Response', response);
+  }
+  /* End client-defined Callback Handler Functions */
+  
+  /* Configuring Handlers */
+  Instamojo.configure({
+    handlers: {
+      onOpen: onOpenHandler,
+      onClose: onCloseHandler,
+      onSuccess: onPaymentSuccessHandler,
+      onFailure: onPaymentFailureHandler
+    }
+  });
+  
+  document.getElementById("pay-button").addEventListener("click", function(){
+    Instamojo.open('https://www.instamojo.com/@abhishektwar');
+  });
+  
