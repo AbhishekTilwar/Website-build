@@ -632,17 +632,21 @@ img{
   position: absolute;
   width: 365px;
   height: 270px;
-  top: 185px;
-  right: 283px;
+  margin: auto;
+  align-items: center;
+ /* top: 185px;*/
+  margin-top: 5.4%;
+  margin-left: 8%;
+  /*right: 283px;*/
   z-index: 1;
 }
 .player-class {
   height: '275';
   width: '368';
 }
+/*
 @media screen and (min-width: 358px) and (max-width: 412px) {
   #player.player-class {
-    /* properties for the ID 'player' when the screen width is 600px or less */
   width: 245px;
   height: 185px;
   top: 390px;
@@ -651,17 +655,15 @@ img{
 }
 @media screen and (max-width: 358px) {
   #player.player-class {
-    /* properties for the ID 'player' when the screen width is 600px or less */
   display: none;
   }
 }
 
 @media screen and (min-width: 414px) and (max-width: 918px) {
   #player.player-class {
-    /* properties for the ID 'player' when the screen width is 600px or less */
   display: none;
   }
-}
+}*/
 
 
 
