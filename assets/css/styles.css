@@ -216,7 +216,7 @@ img{
 
 /* Active menu */
 .active-link{
-  color: var(--first-color);
+  color: #4285F4;
 }
 
 /* Change background header */
@@ -264,7 +264,7 @@ img{
 
 .home__title{
   font-size: var(--biggest-font-size);
-  color: var(--first-color);
+  color: #4285F4;
   margin-bottom: var(--mb-1);
 }
 
@@ -282,7 +282,7 @@ img{
 /*========== BUTTONS ==========*/
 .button{
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: #4285F4;
   color: #FFF;
   padding: .75rem 1rem;
   border-radius: .5rem;
@@ -327,7 +327,7 @@ img{
 
 .services__title{
   font-size: var(--h3-font-size);
-  color:#34A853;
+  color:#4285F4;
   margin-bottom: var(--mb-1);
 }
 .courses__title{
@@ -338,6 +338,11 @@ img{
 .courses__title_yellow{
   font-size: var(--h2-font-size);
   color:#FBBC04;
+  margin-bottom: var(--mb-1);
+}
+.courses__title_green{
+  font-size: var(--h2-font-size);
+  color:#34A853;
   margin-bottom: var(--mb-1);
 }
 .courses__title_blue{
@@ -482,7 +487,7 @@ img{
 
 .footer__logo{
   font-size: var(--h3-font-size);
-  color: var(--first-color);
+  color: #4285F4;
   font-weight: var(--font-semi-bold);
 }
 
@@ -630,12 +635,14 @@ img{
 /*Laptop player*/
 #player.player-class {
   position: absolute;
-  width: 365px;
-  height: 270px;
+  width: 24.5%;
+  height: 35.2%;
   align-items: center;
  /* top: 185px;*/
-  margin-top: 5.4%;
-  margin-left: 8%;
+  margin-top: 2.5%;
+  margin-bottom: 8%;
+  margin-right: 8%;
+  margin-left: 3.7%;
   /*right: 283px;*/
   z-index: 1;
 }
@@ -643,27 +650,59 @@ img{
   height: '275';
   width: '368';
 }
+
+@media screen and (min-width: 1050px) and (max-width: 1300px) {
+  #player.player-class {
+    width: 70%;
+    height: 70%;
+  position: absolute;
+  align-items: center;
+ /* top: 185px;*/
+  margin-top: 12%;
+  margin-bottom: 8%;
+  margin-right: 8%;
+  margin-left: 17%;
+  /*right: 283px;*/
+  z-index: 1;
+  }
+}
 /*
-@media screen and (min-width: 358px) and (max-width: 412px) {
+@media screen and (min-width: 390px) and (max-width: 402px) {
   #player.player-class {
   width: 245px;
-  height: 185px;
-  top: 390px;
-  right: 67px;
-  }
-}
-@media screen and (max-width: 358px) {
-  #player.player-class {
-  display: none;
-  }
-}
-
-@media screen and (min-width: 414px) and (max-width: 918px) {
-  #player.player-class {
-  display: none;
+  height: 170px;
+  position: absolute;
+  align-items: center;
+  margin-top: 12%;
+  margin-bottom: 20%;
+  margin-right: 17%;
+  margin-left: 13%;
+  z-index: 1;
   }
 }*/
 
+@media screen and (max-width: 1200px) {
+  #player.player-class {
+  display: none;
+  }
+}
+.pc{
+  background-image: url('assets/img/home.png');
+
+}
+
+@media screen and (max-width: 1349px) {
+  .pc {
+  display: none;
+  }
+}
+/*
+@media screen and (max-width: 390px) {
+  #player.player-class {
+  display: none;
+  }
+}
+*/
 
 
 .sign_up {
@@ -703,3 +742,4 @@ img{
 .sponsor-item img {
   width: 100%;
 }
+
