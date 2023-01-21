@@ -743,3 +743,120 @@ img{
   width: 100%;
 }
 
+
+
+          /* The laptop with borders */
+          .laptop {
+            -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+            -webkit-transform: scale(.6) translate(-50%); /* Scaled down for a better Try-it experience (change to 1 for full scale) */
+            transform: scale(.6) translate(-50%); /* Scaled down for a better Try-it experience (change to 1 for full scale) */
+            left: 72%;
+            top: 25%;
+            position: absolute;
+            width: 766px;
+            height: 460px;
+            border-radius: 6px;
+            border-style: solid;
+            border-color: black;
+            border-width: 24px 24px 80px;
+            background-color: black;
+          
+          }
+          
+          /* The keyboard of the laptop */
+          .laptop:after {
+            content: '';
+            display: block;
+            left: 5%;
+            position: absolute;
+            width: 870px;
+            height: 50px;
+            margin: 50px 0 0 -110px;
+            background: black;
+            border-radius: 6px;
+          }
+          
+          /* The top of the keyboard */
+          .laptop:before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 250px;
+            height: 30px;
+            bottom: -110px;
+            left: 50%;
+            -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+            background: #f1f1f1;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            z-index: 1;
+          }
+          
+          /* The screen (or content) of the device */
+          .laptop .content {
+            width: 730px;
+            height: 395px;
+            overflow: hidden;
+            border: none;
+          }
+
+          @media screen and (max-width: 649px) {
+                      /* The laptop with borders */
+          .laptop {
+            -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+            -webkit-transform: scale(.6) translate(-50%); /* Scaled down for a better Try-it experience (change to 1 for full scale) */
+            transform: scale(.6) translate(-50%); /* Scaled down for a better Try-it experience (change to 1 for full scale) */
+            left: 50%;
+            top: 58%;
+            position: absolute;
+            width: 496px;
+            height: 300px;
+            border-radius: 6px;
+            border-style: solid;
+            border-color: black;
+            border-width: 24px 24px 80px;
+            background-color: black;
+          
+          }
+          
+          /* The keyboard of the laptop */
+          .laptop:after {
+            content: '';
+            display: block;
+            left: 10%;
+            position: absolute;
+            width: 580px;
+            height: 40px;
+            margin: 26px 0 0 -110px;
+            background: black;
+            border-radius: 6px;
+          }
+          
+          /* The top of the keyboard */
+          .laptop:before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 250px;
+            height: 21px;
+            bottom: -110px;
+            left: 50%;
+            -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+            background: #f1f1f1;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            z-index: 1;
+          }
+          
+          /* The screen (or content) of the device */
+          .laptop .content {
+            width: 450px;
+            height: 260px;
+            overflow: hidden;
+            border: none;
+          }
+          }
