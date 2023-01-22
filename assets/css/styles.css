@@ -805,7 +805,7 @@ img{
           @media screen and (max-width: 649px) {
 
             .home__container{
-              height: calc(80vh - var(--header-height));
+              height: calc(75vh - var(--header-height));
               align-content: center;
             }
                       /* The laptop with borders */
