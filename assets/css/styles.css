@@ -803,6 +803,11 @@ img{
           }
 
           @media screen and (max-width: 649px) {
+
+            .home__container{
+              height: calc(80vh - var(--header-height));
+              align-content: center;
+            }
                       /* The laptop with borders */
           .laptop {
             -webkit-transform-origin: 0 0;
@@ -810,7 +815,7 @@ img{
             -webkit-transform: scale(.6) translate(-50%); /* Scaled down for a better Try-it experience (change to 1 for full scale) */
             transform: scale(.6) translate(-50%); /* Scaled down for a better Try-it experience (change to 1 for full scale) */
             left: 50%;
-            top: 54%;
+            top: 50%;
             position: absolute;
             width: 496px;
             height: 300px;
