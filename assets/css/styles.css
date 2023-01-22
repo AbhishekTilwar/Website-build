@@ -802,7 +802,7 @@ img{
             border: none;
           }
 
-          @media screen and (max-width: 579px) {
+          @media screen and (max-width: 679px) {
 
             .home__container{
               height: calc(75vh - var(--header-height));
@@ -865,3 +865,19 @@ img{
             border: none;
           }
           }
+
+          .pricing {
+            display: flex;
+            align-items: center;
+          }
+          
+          .original-price {
+            text-decoration: line-through;
+            margin-right: 0.5em;
+          }
+          
+          .sale-price {
+            font-weight: bold;
+            color: red;
+          }
+          

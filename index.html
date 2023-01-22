@@ -12,12 +12,18 @@
         <link rel="stylesheet" href="assets/css/styles.css">
         <script src="https://www.youtube.com/iframe_api"></script>
 
-
+        <script>
+          document.addEventListener("DOMContentLoaded", function() {
+            var iframe = document.querySelector(".laptop iframe");
+            iframe.src += "?autoplay=1";
+          });
+        </script>
+        
         <title>Code Beyond</title>
 
     </head>
-    <script>
-        function playVideo() {
+       <script>
+        /*function playVideo() {
           var playerDiv = document.getElementById("player");
           var width = window.getComputedStyle(playerDiv,null).getPropertyValue("width");
           var height = window.getComputedStyle(playerDiv,null).getPropertyValue("height");
@@ -33,7 +39,7 @@
     
         function onPlayerReady(event) {
           event.target.playVideo();
-        }
+        }*/
       </script>
 
       <!--*************************BODY**************************-->
@@ -222,14 +228,23 @@
                         <img src="assets/img/C.png" alt="" class="menu__img">
                         <h3 class="menu__name">C++ <br>Programming</h3>
                         <span class="menu__detail">Live Course</span>
-                        <span class="menu__preci">₹999</span>
+                        <div class="pricing">
+                          <span class="original-price">₹4500</span>
+                          <span class="sale-price">₹999</span>
+                        </div>
+                        <br><br>
                         <a href="Payment.html" class="button menu__button_blue"><span >Enroll Now</span></a>
                     </div>
                     <div class="menu__content">
                         <img src="assets/img/Java.png" alt="" class="menu__img">
                         <h3 class="menu__name">Java <br>Programming</h3>
                         <span class="menu__detail">Live Course</span>
-                        <span class="menu__preci">₹999</span>
+                        <div class="pricing">
+                          <span class="original-price">₹4500</span>
+                          <span class="sale-price">₹999</span>
+                        </div>
+                        <br><br>
+                        
                         <a href="Payment.html" class="button menu__button_blue"><span >Enroll Now</span></a>
                     </div>
                     
@@ -238,7 +253,11 @@
                         <img src="assets/img/Python.png" alt="" class="menu__img">
                         <h3 class="menu__name">Python Programming</h3>
                         <span class="menu__detail">Live Course</span>
-                        <span class="menu__preci">₹999</span>
+                        <div class="pricing">
+                          <span class="original-price">₹4500</span>
+                          <span class="sale-price">₹999</span>
+                        </div>
+                        <br><br>
                         <a href="Payment.html" class="button menu__button_blue"><span >Enroll Now</span></a>
                     </div>
                     
