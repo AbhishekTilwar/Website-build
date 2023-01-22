@@ -802,7 +802,7 @@ img{
             border: none;
           }
 
-          @media screen and (max-width: 649px) {
+          @media screen and (max-width: 579px) {
 
             .home__container{
               height: calc(75vh - var(--header-height));
