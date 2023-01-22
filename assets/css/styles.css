@@ -810,7 +810,7 @@ img{
             -webkit-transform: scale(.6) translate(-50%); /* Scaled down for a better Try-it experience (change to 1 for full scale) */
             transform: scale(.6) translate(-50%); /* Scaled down for a better Try-it experience (change to 1 for full scale) */
             left: 50%;
-            top: 50%;
+            top: 55%;
             position: absolute;
             width: 496px;
             height: 300px;
