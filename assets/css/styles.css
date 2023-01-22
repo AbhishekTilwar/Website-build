@@ -125,6 +125,14 @@ img{
 .section-subtitle{
   display: block;
   color: #4285F4;
+  text-align: center;
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-1);
+}
+.section-subtitle_yellow{
+  display: block;
+  color: #FBBC04;
+  text-align: center;
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-1);
 }
