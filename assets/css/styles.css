@@ -771,7 +771,7 @@ img{
             left: 5%;
             position: absolute;
             width: 870px;
-            height: 50px;
+            height: 35px;
             margin: 50px 0 0 -110px;
             background: black;
             border-radius: 6px;
@@ -783,8 +783,8 @@ img{
             display: block;
             position: absolute;
             width: 250px;
-            height: 30px;
-            bottom: -110px;
+            height: 20px;
+            bottom: -100px;
             left: 50%;
             -webkit-transform: translate(-50%);
             transform: translate(-50%);
@@ -810,7 +810,7 @@ img{
             -webkit-transform: scale(.6) translate(-50%); /* Scaled down for a better Try-it experience (change to 1 for full scale) */
             transform: scale(.6) translate(-50%); /* Scaled down for a better Try-it experience (change to 1 for full scale) */
             left: 50%;
-            top: 58%;
+            top: 62%;
             position: absolute;
             width: 496px;
             height: 300px;
@@ -826,10 +826,10 @@ img{
           .laptop:after {
             content: '';
             display: block;
-            left: 10%;
+            left: 12.5%;
             position: absolute;
-            width: 580px;
-            height: 40px;
+            width: 550px;
+            height: 30px;
             margin: 26px 0 0 -110px;
             background: black;
             border-radius: 6px;
@@ -841,9 +841,9 @@ img{
             display: block;
             position: absolute;
             width: 250px;
-            height: 21px;
-            bottom: -110px;
-            left: 50%;
+            height: 16px;
+            bottom: -100px;
+            left: 49%;
             -webkit-transform: translate(-50%);
             transform: translate(-50%);
             background: #f1f1f1;
