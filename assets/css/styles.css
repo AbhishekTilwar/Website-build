@@ -420,6 +420,15 @@ img{
   padding: .625rem .813rem;
   border-radius: .5rem 0 .5rem 0;
 }
+.menu__button_yellow{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #FBBC04;
+  display: flex;
+  padding: .625rem .813rem;
+  border-radius: .5rem 0 .5rem 0;
+}
 .parent {
   position: relative; /* Add position relative */
   height: 10vh; /* Set height */
