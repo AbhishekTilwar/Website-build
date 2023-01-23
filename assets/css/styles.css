@@ -389,6 +389,10 @@ img{
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
 }
+.menu__preci_blue{
+  font-weight: var(--font-semi-bold);
+  color: #4285F4;
+}
 
 .menu__name{
   font-size: var(--normal-font-size);
@@ -897,3 +901,19 @@ img{
             color: red;
           }
           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+/* try*/
